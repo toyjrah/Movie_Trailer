@@ -72,6 +72,7 @@ fresh_tomatoes.open_movies_page(movies)
 # Prints documentation from class Movie
 print media.Movie.__doc__
 
+
 # Prints the name of the class
 print media.Movie.__name__
 
