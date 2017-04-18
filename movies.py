@@ -62,19 +62,26 @@ SHAWSHANK = media.Movie(
     "http://tinyurl.com/zy6nv5v",
     "https://www.youtube.com/watch?v=6hB3S9bIaco")
 
+REVENANT = media.Movie(
+    "The Revenant",
+    "A frontiersman on a fur trading expedition in the 1820s fights for survival after being"
+    "mauled by a bear and left for dead by members of his own.",
+    "http://t1.gstatic.com/images?q=tbn:ANd9GcS5yuCSZqK5Hha5lElqZr2SCYVY-sYycKZ8PJ8POfNQkOmSuo5B",
+    "https://www.youtube.com/watch?v=Df980EYeWMw")
+
 # All variables are in an Array
-movies = [TOY_STORY, AVATAR, BATMAN, GUARDIANS, SCHOOL, ROCKY, SHAWSHANK]
+movies = [TOY_STORY, AVATAR, BATMAN, GUARDIANS, SCHOOL, ROCKY, SHAWSHANK, REVENANT]
 
 # Function open_movies_page is called from fresh_tomatoes and variable
 # movies is passed as an argument
 fresh_tomatoes.open_movies_page(movies)
 
 # Prints documentation from class Movie
-print media.Movie.__doc__
+print (media.Movie.__doc__)
 
 
 # Prints the name of the class
-print media.Movie.__name__
+print (media.Movie.__name__)
 
 # Prints the name of the module
-print media.Movie.__module__
+print (media.Movie.__module__)
